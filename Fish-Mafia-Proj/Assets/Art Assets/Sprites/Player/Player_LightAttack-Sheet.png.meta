@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 32d69f49cc02a884a90fd89b63055ddc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1592904803370489911
+    second: Player_LightAttack-Sheet_0
+  - first:
+      213: -5803268205470610124
+    second: Player_LightAttack-Sheet_1
+  - first:
+      213: 412892928232719193
+    second: Player_LightAttack-Sheet_2
+  - first:
+      213: -3786755570341952229
+    second: Player_LightAttack-Sheet_3
+  - first:
+      213: -2832421594086363722
+    second: Player_LightAttack-Sheet_4
+  - first:
+      213: -5366044119625412571
+    second: Player_LightAttack-Sheet_5
+  - first:
+      213: -4946399143697111042
+    second: Player_LightAttack-Sheet_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73859e5aa722b1610800000000000000
+      internalID: 1592904803370489911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d0b9c6056a67fa0800000000000000
+      internalID: -5803268205470610124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953059d3ee3eab500800000000000000
+      internalID: 412892928232719193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1549823fddb27bc0800000000000000
+      internalID: -3786755570341952229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd2656219731b8d0800000000000000
+      internalID: -2832421594086363722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5e40d8b4793b1408ff507e3deb5d10
+      internalID: -5366044119625412571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b047995b2e6227b468a181ab52a98b1f
+      internalID: 469055846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7058c97e0ea745f4592e74f4add6c2c6
+      internalID: 1655615800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5d21ac2dabc834a875b208b1f495f3
+      internalID: 1923009982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d8c36123c98b5498381d0f978b5408
+      internalID: 1298295052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a139de38d75897c4791b678ecf11d60b
+      internalID: -1658326248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2cafab22788a844848d8d6de4ac5fb
+      internalID: -2041031755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314488891591ac14fafd4a6247b29156
+      internalID: 507483833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39215ddfbd8bd3845aac5288fd534d15
+      internalID: -1292773990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_LightAttack-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db93cdc1f614c14e871eb9e1c09f7fa
+      internalID: 1173336306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fdd8480559073e3428895ff0b94c9d4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":15.0,"y":1.0},"gridSpriteSize":{"x":383.0,"y":331.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.1599999964237213},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Player_LightAttack-Sheet_0: 1592904803370489911
+      Player_LightAttack-Sheet_1: -5803268205470610124
+      Player_LightAttack-Sheet_10: -1658326248
+      Player_LightAttack-Sheet_11: -2041031755
+      Player_LightAttack-Sheet_12: 507483833
+      Player_LightAttack-Sheet_13: -1292773990
+      Player_LightAttack-Sheet_14: 1173336306
+      Player_LightAttack-Sheet_2: 412892928232719193
+      Player_LightAttack-Sheet_3: -3786755570341952229
+      Player_LightAttack-Sheet_4: -2832421594086363722
+      Player_LightAttack-Sheet_5: -5366044119625412571
+      Player_LightAttack-Sheet_6: 469055846
+      Player_LightAttack-Sheet_7: 1655615800
+      Player_LightAttack-Sheet_8: 1923009982
+      Player_LightAttack-Sheet_9: 1298295052
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

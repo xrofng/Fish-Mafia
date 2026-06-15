@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 1323aaea6286cd945bfca852f94f1978
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6929025947191954175
+    second: Player_Shoot-Sheet_0
+  - first:
+      213: 2465483637585061449
+    second: Player_Shoot-Sheet_1
+  - first:
+      213: 7439502541416633637
+    second: Player_Shoot-Sheet_2
+  - first:
+      213: -5002972081206593394
+    second: Player_Shoot-Sheet_3
+  - first:
+      213: 4309500775551922427
+    second: Player_Shoot-Sheet_4
+  - first:
+      213: 1446232005778473339
+    second: Player_Shoot-Sheet_5
+  - first:
+      213: 759492078079099150
+    second: Player_Shoot-Sheet_6
+  - first:
+      213: 6230180420683499757
+    second: Player_Shoot-Sheet_7
+  - first:
+      213: 7873574557591732937
+    second: Player_Shoot-Sheet_8
+  - first:
+      213: 4620744981180749737
+    second: Player_Shoot-Sheet_9
+  - first:
+      213: 1203032683426380809
+    second: Player_Shoot-Sheet_10
+  - first:
+      213: 4056502873390794857
+    second: Player_Shoot-Sheet_11
+  - first:
+      213: -7447809903691734755
+    second: Player_Shoot-Sheet_12
+  - first:
+      213: -662412520000344253
+    second: Player_Shoot-Sheet_13
+  - first:
+      213: -6998739037072746322
+    second: Player_Shoot-Sheet_14
+  - first:
+      213: -952303619926528945
+    second: Player_Shoot-Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105b822dc9727df90800000000000000
+      internalID: -6929025947191954175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946abc14e48273220800000000000000
+      internalID: 2465483637585061449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52511ce252c6e3760800000000000000
+      internalID: 7439502541416633637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88fb76266fd19ab0800000000000000
+      internalID: -5002972081206593394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0fa066f1c6ecb30800000000000000
+      internalID: 4309500775551922427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b710a37c85c021410800000000000000
+      internalID: 1446232005778473339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01c0a365024a8a00800000000000000
+      internalID: 759492078079099150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de80f6d651c067650800000000000000
+      internalID: 6230180420683499757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c20fc9185e844d60800000000000000
+      internalID: 7873574557591732937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Shoot-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 0
+        width: 383
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a792f0241f202040800000000000000
+      internalID: 4620744981180749737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d0f9af7149fcbb84e82537fdc1cdc364
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":1.0},"gridSpriteSize":{"x":383.0,"y":331.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.23999999463558198},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Player_Shoot-Sheet_0: -6929025947191954175
+      Player_Shoot-Sheet_1: 2465483637585061449
+      Player_Shoot-Sheet_2: 7439502541416633637
+      Player_Shoot-Sheet_3: -5002972081206593394
+      Player_Shoot-Sheet_4: 4309500775551922427
+      Player_Shoot-Sheet_5: 1446232005778473339
+      Player_Shoot-Sheet_6: 759492078079099150
+      Player_Shoot-Sheet_7: 6230180420683499757
+      Player_Shoot-Sheet_8: 7873574557591732937
+      Player_Shoot-Sheet_9: 4620744981180749737
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
