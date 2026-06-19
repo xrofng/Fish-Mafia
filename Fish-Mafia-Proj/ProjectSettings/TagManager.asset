@@ -2,8 +2,9 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,8 +12,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -38,6 +39,41 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG - Far
+    uniqueID: 4096418619
+    locked: 0
+  - name: BG - Mid
+    uniqueID: 3724636587
+    locked: 0
+  - name: BG - Close
+    uniqueID: 1452963793
+    locked: 0
+  - name: Gameplay - Back
+    uniqueID: 93154853
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Gameplay
+    uniqueID: 2112770037
+    locked: 0
+  - name: Gameplay - Front
+    uniqueID: 1493000785
+    locked: 0
+  - name: Foreground
+    uniqueID: 2527988537
+    locked: 0
+  - name: ForFuture
+    uniqueID: 4093649741
+    locked: 0
+  - name: ForFuture1
+    uniqueID: 2970545663
+    locked: 0
+  - name: ForFuture2
+    uniqueID: 795497889
+    locked: 0
+  - name: UI
+    uniqueID: 2746871411
+    locked: 0
+  m_RenderingLayers:
+  - Default

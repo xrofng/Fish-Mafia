@@ -1,4 +1,5 @@
 ﻿using Sirenix.OdinInspector;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Combat2D
@@ -87,7 +88,7 @@ namespace Combat2D
 
             Vector3 pos = transform.position + (Vector3)offset;
 
-            Vector3 scale = transform.lossyScale;
+            Vector3 scale = transform.lossyScale.sqrMagnitude > col.bounds.size.sqrMagnitude ? transform.lossyScale : col.bounds.size;
 
             switch (shape)
             {

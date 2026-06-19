@@ -82,7 +82,6 @@ public class CursorController : MoreMountains.Tools.MMSingleton<CursorController
 
     protected virtual void OnClick(InputAction.CallbackContext context)
     {
-        Debug.Log("sadsad");
         behavior.OnClick();
     }
 }

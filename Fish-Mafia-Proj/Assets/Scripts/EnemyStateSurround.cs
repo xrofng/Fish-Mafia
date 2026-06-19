@@ -123,10 +123,11 @@ public class EnemyStateSurround : BaseEnemyState
     {
         if (StateMachine.Kokonut.HasPlayerInAttackRange())
         {
-            if (StateMachine.HiveMind.RequestAttack(StateMachine))
-            {
                 StateMachine.TransitionToState(KokonutStateMachine.EEnemyState.Attack);
-            }
+            //if (StateMachine.HiveMind.RequestAttack(StateMachine))
+            //{
+            //    StateMachine.TransitionToState(KokonutStateMachine.EEnemyState.Attack);
+            //}
         }
     }
 }
