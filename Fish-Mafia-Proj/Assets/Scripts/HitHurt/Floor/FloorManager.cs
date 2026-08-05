@@ -104,16 +104,17 @@ public class FloorManager : Singleton<FloorManager>
             floor.SetFloorActive(v);
         }
     }
-}
 
-public struct EvsFloorChanged
-{
-    private FloorController NextFloor;
-    private FloorController PrevFloor;
-
-    public EvsFloorChanged(FloorController nextFloor, FloorController prevFloor)
+    public struct EvsFloorChanged
     {
-        NextFloor = nextFloor;
-        PrevFloor = prevFloor;
+        public FloorController NextFloor;
+        public FloorController PrevFloor;
+
+        public EvsFloorChanged(FloorController nextFloor, FloorController prevFloor)
+        {
+            NextFloor = nextFloor;
+            PrevFloor = prevFloor;
+        }
     }
 }
+

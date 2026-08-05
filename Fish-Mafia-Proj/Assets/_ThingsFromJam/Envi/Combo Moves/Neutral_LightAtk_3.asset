@@ -29,7 +29,7 @@ MonoBehaviour:
     PowerMultiplier: 1.5
     BulletGainOnHit: 5
     HorizontalKnockback: 1
-    VerticalKnockback: 1
+    VerticalKnockback: 0
     KnockbackPower: 8
     KnockbackDuration: 0.25
   comboWindows: {x: 0.18, y: 0.2}

@@ -1,21 +1,27 @@
 using MoreMountains.Feedbacks;
+using Unity.Cinemachine;
 using UnityEngine;
 
-public class KokonutCamera : BetterMonoBehaviour, IEventSubcriber<BasePlayerState.EvsPlayerStateEntered>
+public class KokonutCamera : BetterMonoBehaviour, 
+    IEventSubcriber<BasePlayerState.EvsPlayerStateEntered>,
+    IEventSubcriber<FloorManager.EvsFloorChanged>
 {
+    public CinemachineCamera Cinemachine;
     public MMF_Player EnterEngageFB;
     public MMF_Player ExitEngageFB;
 
     protected override void OnEnable()
     {
         base.OnEnable();
-        EventBusRegister.EventBusSubcribe(this);
+        EventBusRegister.EventBusSubcribe<BasePlayerState.EvsPlayerStateEntered>(this);
+        EventBusRegister.EventBusSubcribe<FloorManager.EvsFloorChanged>(this);
     }
 
     protected override void OnDisable()
     {
         base.OnDisable();
-        EventBusRegister.EventBusUnscribe(this);
+        EventBusRegister.EventBusUnscribe<BasePlayerState.EvsPlayerStateEntered>(this);
+        EventBusRegister.EventBusUnscribe<FloorManager.EvsFloorChanged>(this);
     }
 
     public void OnEventBusTrigger(BasePlayerState.EvsPlayerStateEntered eventType)
@@ -30,5 +36,10 @@ public class KokonutCamera : BetterMonoBehaviour, IEventSubcriber<BasePlayerStat
         {
             EnterEngageFB?.PlayFeedbacks();
         }
+    }
+
+    public void OnEventBusTrigger(FloorManager.EvsFloorChanged eventType)
+    {
+        Cinemachine.ChangeTarget(eventType.NextFloor.transform);
     }
 }
