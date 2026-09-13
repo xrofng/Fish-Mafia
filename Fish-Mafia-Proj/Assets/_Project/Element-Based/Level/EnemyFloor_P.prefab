@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4952498148536318134}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -47,7 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306f811f24bc9b2468f6ff6f5d53b8ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FloorController
-  autoDetectEnemies: 1
+  autoDetectEnemiesFromChildren: 1
+  enemies: []
   AirStandCol: {fileID: 4411223107963164477}
 --- !u!114 &7546657156752360922
 MonoBehaviour:
@@ -110,7 +111,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 36, y: 5}
+  m_Size: {x: 36, y: 15}
   m_EdgeRadius: 0
 --- !u!1 &5912774230840774382
 GameObject:

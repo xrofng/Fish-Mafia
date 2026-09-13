@@ -13,6 +13,10 @@ public class Health : MonoBehaviour, IDamageable
 
     void Awake()
     {
+        if (IsEnemy && CoreGameManager.Instance.MechanicSettingSO.OneHitKill)
+        {
+            maxHP = 1;
+        }
         currentHP = maxHP;
     }
 
@@ -41,7 +45,6 @@ public class Health : MonoBehaviour, IDamageable
             KokonutStateMachine s = GetComponent<KokonutStateMachine>();
             s.Kokonut.Animator.Play("Enemy_Death_Aclip");
             EventBus.TriggerEvent(new EvsEnemyDied(s));
-
         }
         else
         {

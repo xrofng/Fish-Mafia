@@ -113,7 +113,6 @@ public class PlayerStateAttacking : BasePlayerState
     {
         if (_attacking == false)
         {
-            Debug.Log($"_attacking == falsee to ENgage | {Time.time} |");
             return PlayerStateMachine.EPlayerState.Engage;
         }
         return PlayerStateMachine.EPlayerState.Attack;

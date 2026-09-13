@@ -1,6 +1,7 @@
 ﻿using Sirenix.OdinInspector;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace Combat2D
 {
@@ -72,6 +73,31 @@ namespace Combat2D
         protected virtual Color GetGizmoColor()
         {
             return col.enabled ? GetEnabledColor() : GetDisabledColor();
+        }
+
+        public Vector2 GetColliderSize()
+        {
+            Collider2D collider;
+            if (TryGetComponent(out collider)) return Vector2.zero;
+            Debug.Log("GetColliderSize " + collider);
+            // Pattern match against each possible 2D collider type
+            switch (collider)
+            {
+                case BoxCollider2D box:
+                    return box.size;
+
+                case CircleCollider2D circle:
+                    return Vector2.one * circle.radius * 2;
+                    break;
+
+                case CapsuleCollider2D capsule:
+                    return capsule.size;
+                    break;
+
+                default:
+                    return Vector2.zero;
+                    break;
+            }
         }
 
         protected override void Update()

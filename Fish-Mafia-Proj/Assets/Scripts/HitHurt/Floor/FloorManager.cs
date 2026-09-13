@@ -1,11 +1,12 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Xrofng;
+using Sirenix.OdinInspector;
 
 public class FloorManager : Singleton<FloorManager>
 {
     [SerializeField] private bool autoDetectFloors = true;
+    [HideIf(nameof(autoDetectFloors))]
     [SerializeField] private List<FloorController> floors = new();
 
     private FloorController _currentFloor;
@@ -77,20 +78,26 @@ public class FloorManager : Singleton<FloorManager>
         }
     }
 
-    private FloorController GetUpperFloor(FloorController currentFloor)
+
+    public FloorController GetUpperFloor()
     {
-        if (currentFloor.ListId + 1  < floors.Count)
+        return GetUpperFloor(_currentFloor);
+    }
+
+    private FloorController GetUpperFloor(FloorController fromFloor)
+    {
+        if (fromFloor.ListId + 1  < floors.Count)
         {
-            return floors[currentFloor.ListId + 1];
+            return floors[fromFloor.ListId + 1];
         }
         return null;
     }
 
-    private FloorController GetLowerFloor(FloorController currentFloor)
+    private FloorController GetLowerFloor(FloorController fromFloor)
     {
-        if (currentFloor.ListId - 1 >= 0)
+        if (fromFloor.ListId - 1 >= 0)
         {
-            return floors[currentFloor.ListId - 1];
+            return floors[fromFloor.ListId - 1];
         }
         return null;
     }
@@ -98,10 +105,14 @@ public class FloorManager : Singleton<FloorManager>
     private void SetFloorActive(bool v)
     {
         _currentFloor.SetFloorActive(v);
-        foreach (FloorController floor in _nearbyFloors)
+
+        if (CoreGameManager.Instance.MechanicSettingSO.ActivateEnemiesOfNearbyFloor)
         {
-            Debug.Log(floor.name);
-            floor.SetFloorActive(v);
+            foreach (FloorController floor in _nearbyFloors)
+            {
+                Debug.Log(floor.name);
+                floor.SetFloorActive(v);
+            }
         }
     }
 

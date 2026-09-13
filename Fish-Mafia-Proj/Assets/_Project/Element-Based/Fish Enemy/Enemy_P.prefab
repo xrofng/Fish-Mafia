@@ -536,9 +536,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7374ef8ad0770bb4bab3d4b2a89efb8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHP: 100
+  maxHP: 80
   IsEnemy: 1
-  DestroyDelay: 1
+  DestroyDelay: 0.1
 --- !u!114 &1397297077337990017
 MonoBehaviour:
   m_ObjectHideFlags: 0
